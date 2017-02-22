@@ -1,0 +1,17 @@
+
+
+.leftBar{
+  background-color: green;
+  position:absolute;
+  width: 20%;
+  height: 100%;
+
+}
+
+.rightBar{
+  background-color: red;
+  position:absolute;
+  left: 20%;
+  height: 100%;
+  width: 80%;
+}

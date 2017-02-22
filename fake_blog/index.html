@@ -8,16 +8,21 @@
   <body>
 
     <div class="topBar">
-        <img class="TBL-pic topBarLeft" src="./media/tri.png" alt="">
-        <img class="TBL-pic topBarLeft" src="./media/twit.png" alt="">
-        <span class="topBarRight">Follow</span>
-        <span class="topBarRight">Sign in / Sign up</span>
+      <div class="topBarLeft">
+        <span><img class="TBL-pic topBarLeft" src="./media/tri.png" alt=""></span>
+        <span><img class="TBL-pic topBarLeft" src="./media/twit.png" alt=""></span>
+      </div>
+      <div class="topBarRight">
+        <span>Follow</span>
+        <span>Sign in / Sign up</span>
+        </div>
     </div>
 
     <!-- <img src="profilePic" alt=""> -->
 
     <div id = "s1" class="paragraph">
       <h1>Introducing Apex Ping!</h1>
+    </div>
       <p>I’d like to introduce Apex Ping! A minimalistic, but powerful uptime & performance monitoring service for websites and APIs. In this post I’ll cover features of Apex Ping, why I chose to build it first, and a few things I learned in the process. In future posts I’ll be detailing the implementation for anyone who is curious.
 I soft-launched Ping about a month ago, built almost 100% on AWS Lambda, with 500 users it has already detected over a million errors, and performed over 25 million checks. Big thanks to the early adopters who have checked it out!
 </p>

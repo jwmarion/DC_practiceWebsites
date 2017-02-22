@@ -2,22 +2,29 @@ body{
   text-align: center;
 }
 
+p{
+  text-align: center;
+
+  margin-left: 20%
+
+
+}
 .topBar{
-  background-color: yellow;
   max-height: 1em;
 
 }
 
-.topBarRight{
-  display: inline-block;
-  /*padding-left: 1%*/
+.topBarLeft{
+  display: inline;
+  float: left;
+
 }
 
-.topBarLeft{
-  display: inline-block;
-  text-align: left;
-  padding-right: 40%
+.topBarRight{
+  display: inline;
+  float: right;
 }
+
 
 .TBL-pic{
   max-height: 1em;

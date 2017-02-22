@@ -1,0 +1,68 @@
+.g1{
+  position: absolute;
+  background-color: blue;
+  width: 33%;
+  height: 33%;
+}
+.g2{
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 33%;
+  left: 33%;
+}
+.g3{
+  position: absolute;
+  background-color: blue;
+  width: 33%;
+  height: 33%;
+  left: 66%;
+}
+.g4{
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 33%;
+  top: 33%;
+
+}
+.g5{
+  position: absolute;
+  background-color: blue;
+  width: 33%;
+  height: 33%;
+  left: 33%;
+  top: 33%;
+}
+.g6{
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 33%;
+  left: 66%;
+  top: 33%;
+}
+.g7{
+  position: absolute;
+  background-color: blue;
+  width: 33%;
+  height: 33%;
+  top: 66%;
+
+}
+.g8{
+  position: absolute;
+  background-color: white;
+  width: 33%;
+  height: 33%;
+  left: 33%;
+  top: 66%;
+}
+.g9{
+  position: absolute;
+  background-color: blue;
+  width: 33%;
+  height: 33%;
+  left: 66%;
+  top: 66%;
+}

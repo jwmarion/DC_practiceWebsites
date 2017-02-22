@@ -1,0 +1,48 @@
+
+.kid{
+  position: absolute;
+  width: 100px;
+  top: 7%;
+}
+
+#schoolbus{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 1200px;
+}
+
+#kim{
+  left: 3.5%;
+}
+#lea{
+  left: 11.5%;
+}
+#lily{
+  left: 19%;
+}
+#mimi{
+  left: 50%;
+}
+#roy{
+  left: 28%;
+}
+#bob{
+  top: 6%;
+  left: 35%;
+  width: 85px;
+}
+#joan{
+  left: 42%;
+}
+#baby{
+  top:6%;
+  left: 59%;
+  width: 70px;
+}
+#driver{
+  top: 8%;
+  position: absolute;
+  width: 100px;
+  left: 66%;
+}

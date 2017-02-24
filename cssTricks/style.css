@@ -1,5 +1,8 @@
+
+
 *{
   margin: 0;
+  box-sizing: border-box;
 }
 
 p{
@@ -20,22 +23,34 @@ blockquote{
   height: 40px;
 }
 
+/* CLEARFIX */
+.c1::before, .container::after {
+    content:"";
+    display:table;
+}
+.c1::after {
+    clear:both;
+}
+.c1 {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+/* END CLEARFIX */
+
 .sideBar{
-  box-sizing: border-box;
   float: right;
   height: 100vh;
-  width:25%;
+  width: 25%;
   background-color: rgb(243,243,243);
 
 }
 .topBar{
-  box-sizing: border-box;
+
   padding: 15px;
   margin-bottom: 35px;
 
 }
 .sideShrink{
-  width: 230px;
+  width: 90%;;
  padding: 15px;
 }
 
@@ -45,11 +60,12 @@ blockquote{
 }
 
 .mainPage{
-  box-sizing: border-box;
+  float: left;
   width: 75%;
   border: 14px solid rgb(68,68,68);
-  height: 100vh;
+  height: 100%;
   padding:25px;
+  clear: left;
 
 }
 .dateBar{
@@ -63,9 +79,13 @@ blockquote{
 
 }
 
+.content{
+  clear: both;
+}
 .text{
   font-family: 'Open Sans', sans-serif;
   padding-top: 15px;
+  clear: both;
 }
 
 }
@@ -120,4 +140,49 @@ margin: auto;
 #searchBar{
 height: 30px;
 width: 200px;
+}
+
+@media(max-width: 600px){
+  #search{
+    display: none;
+    width: 25px;
+    height: 25px;
+  }
+
+  #searchBar{
+    display: none;
+    height:1em;
+    width: 75px;
+  }
+  #linkButton{
+    height: 40px;
+  }
+  img.topLeft{
+      height: 30px;
+  }
+  .sideBar{
+    width: auto;
+  }
+  .sideBar img{
+    /*display:none;*/
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  #logo{
+    height: 30px;
+  }
+  .hbar{
+    font-size: .6em;
+
+  }
+  .dateBar{
+    font-size: .6em;
+  }
+  .text{
+    font-size: .8em;
+  }
+  .mainPage{
+    width:auto;
+  }
 }

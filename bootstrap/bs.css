@@ -1,0 +1,45 @@
+*{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: lightblue;
+}
+
+.addBorder{
+  border: 2px solid red;
+}
+.iceColdTitle{
+  text-align: center;
+}
+
+.secondRow{
+  background-color: darkgrey;
+}
+
+.topBuffer{
+  margin-top: 6em;
+}
+.thirdRow{
+  background-color: gold;
+  padding: 10em;
+}
+
+.test{
+  background-color: grey;
+}
+
+#topBarRight{
+  text-align: right;
+}
+#topBarLeft{
+  text-align: left;
+}
+
+#navbar{
+  font-size: 1.5em;
+}
+#great{
+  background-color: lightgrey;
+}
